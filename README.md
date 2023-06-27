@@ -24,7 +24,7 @@ This is the simplest level as the files are indifferent to each other.
 A docker python file is executed using the python command followed by its inline arguments.
 The files remain indifferent to each other, but each service is now in an encapsulated executable form (Docker image).
 <br>
-![Level 2](https://raw.githubusercontent.com/manisha-deshpande/Calculator-services-Docker/Level-2/resources/Docker-Level-2.png)
+![Level 2](/resources/Docker-Level-2.png)
 <br>
 
 
