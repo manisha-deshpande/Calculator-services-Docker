@@ -16,6 +16,16 @@ and building them at 4 levels, one more complex than the previous.
 Each python file is executed using the python command followed by its inline arguments.
 This is the simplest level as the files are indifferent to each other.
 <br>
+![Level 1](/resources/Docker-Level-1.png)
+<br>
+
+<b>Level 2: Separate Dockers</b>
+<br>
+A docker python file is executed using the python command followed by its inline arguments.
+The files remain indifferent to each other, but each service is now in an encapsulated executable form (Docker image).
+<br>
+![Level 2](/resources/Docker-Level-2.png)
+<br>
 
 
 <hr>

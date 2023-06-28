@@ -1,0 +1,11 @@
+# Dockerfile.divide: Dockerfile for divide(.py)
+# author: manisha-deshpande
+
+# Use the latest Python image as base image
+FROM python:latest
+
+# Copy the divide python file to current directory
+COPY divide /
+
+# Set the entrypoint command to run when the container starts
+ENTRYPOINT ["python", "divide"]
