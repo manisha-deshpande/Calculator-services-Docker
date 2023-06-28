@@ -1,9 +1,9 @@
-# divide: takes inline input from the commandline and divides one number by the other
+# minus.py: takes inline input from the commandline and subtracts two numbers
 # author: manisha-deshpande
 import sys
 
-def divide(int1, int2):
-    return int1 // int2
+def minus(int1, int2):
+    return int1 - int2
 
 if __name__ == "__main__":
     if(len(sys.argv) == 3):
@@ -12,6 +12,6 @@ if __name__ == "__main__":
     else:
         int1 = int(input())
         int2 = int(sys.argv[1])
-    
-    result = divide(int1, int2)
+
+    result = minus(int1, int2)
     print(result)
