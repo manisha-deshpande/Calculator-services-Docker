@@ -1,4 +1,4 @@
-# multiply: takes inline input from the commandline and multiplies two numbers
+# multiply.py: takes inline input from the commandline and multiplies two numbers
 # author: manisha-deshpande
 import sys
 
