@@ -1,0 +1,14 @@
+# Dockerfile.plus: Dockerfile for plus.py
+# author: mdeshp10
+
+# Use the latest Python image as base image
+FROM python:latest
+
+# Copy the plus python file to current directory
+COPY plus.py .
+
+# Set Volume directory to /db
+VOLUME ["/db"]
+
+# Set the entrypoint command to run when the container starts
+ENTRYPOINT ["python", "plus.py"]
