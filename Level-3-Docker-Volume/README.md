@@ -1,6 +1,6 @@
 <h2><b>Level 3</b></h2>
 <h3>
-Docker Volume shared Memory
+Docker Volume
 </h3>
 By <u>manisha-deshpande</u>
 <hr>
@@ -26,3 +26,7 @@ Python version used: <b>3.11.3</b>
 <p>$ docker run --mount source=db-volume,target=/db divide 25</p>
 4
 <p></p>
+<hr>
+<b>Other information:</b>
+<p>The created docker image can be deleted by using the command: <i>docker image rm </i></p>
+<p>The created volume can be deleted using the command: <i>docker volume rm docker_name</i></p>
